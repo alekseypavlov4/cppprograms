@@ -21,7 +21,7 @@ int main()
             vec[i].push_back(rand() % 10);
             cout << setw(2) << vec[i][j] << " ";
     	}
-    	cout << setw(2) << endl;
+    	cout << endl;
     }
     
     cout << endl;
@@ -41,7 +41,7 @@ int main()
 		{
             cout << setw(2) << vec[i][j] << " ";
         }
-        cout << setw(2) << endl;
+        cout << endl;
     }
 
     srand(time(NULL));
