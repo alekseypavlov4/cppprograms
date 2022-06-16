@@ -31,8 +31,8 @@ int main()
 	{
         int x;
         x = vec[i][i];
-        vec[i][i] = vec[i][n-1 - i];
-        vec[i][n-1 - i] = x;
+        vec[i][i] = vec[n-1 - i][i];
+        vec[n-1 - i][i] = x;
     }
     
     for (int i = 0; i < n; i++)
