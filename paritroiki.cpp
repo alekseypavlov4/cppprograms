@@ -50,12 +50,12 @@ int main()
 		}
 		else
 		{
-			cout<<setw(3)<<array[i]<<" : "<<"kol-vo = "<<k+1<<","<<"par = "<<(k+1)/2<<","<<"troek = "<<(k+1)/3<<"\t"<<endl;
+			cout<<setw(3)<<array[i]<<" : "<<"kol-vo = "<<k+1<<","<<"pari = "<<(k+1)/2<<","<<"troiki = "<<(k+1)/3<<"\t"<<endl;
 			k=0;
 		}
 		if (i==100-2)
 		{
-		cout<<setw(3)<<array[i]<<" : "<<"kol-vo = "<<k+1<<","<<"par = "<<(k+1)/2<<","<<"troek = "<<(k+1)/3<<"\t"<<endl;
+		cout<<setw(3)<<array[i]<<" : "<<"kol-vo = "<<k+1<<","<<"pari = "<<(k+1)/2<<","<<"troiki = "<<(k+1)/3<<"\t"<<endl;
 		}
 	}
 
