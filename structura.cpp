@@ -132,7 +132,7 @@ cout << "Appointment: " << ivan.a << endl;
 cout << "Salary: " << ivan.s << endl;
 cout << "\t" << endl;
 
-cout << "Average salary = " << (konstantin.s+sergey.s+alexander.s+dmitriy.s+mikhail.s+andrey.s+kirill.s+ivan.s)/8 << endl;
+cout << "Srednyaya zarplata = " << (konstantin.s+sergey.s+alexander.s+dmitriy.s+mikhail.s+andrey.s+kirill.s+ivan.s)/8 << endl;
 cout << "\t" << endl;
 
 if (a_1>30){
