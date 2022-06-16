@@ -27,15 +27,18 @@ int main()
     cout << endl;
     cout << endl;
 	
-	for (int i = 0; i < n; i++){
+	for (int i = 0; i < n; i++)
+	{
         int x;
         x = vec[i][i];
         vec[i][i] = vec[i][n-1 - i];
         vec[i][n-1 - i] = x;
     }
     
-    for (int i = 0; i < n; i++){
-        for (int j = 0; j < n; j++){
+    for (int i = 0; i < n; i++)
+	{
+        for (int j = 0; j < n; j++)
+		{
             cout << setw(2) << vec[i][j] << " ";
         }
         cout << setw(2) << endl;
