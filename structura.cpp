@@ -12,6 +12,8 @@ int s;
 
 int main()
 {
+int sums = 0;
+int k = 0;
 person konstantin;
 konstantin.l = "Habenskiy";
 konstantin.n = "Konstantin";
@@ -19,6 +21,8 @@ konstantin.b = 1997;
 konstantin.a = "actor";
 konstantin.s = 45000;
 int a_1=2022-konstantin.b;
+sums += konstantin.s;
+k += 1;
 
 cout << "Lastname: " << konstantin.l << endl;
 cout << "Name: " << konstantin.n << endl;
@@ -34,6 +38,8 @@ sergey.b = 1999;
 sergey.a = "sculptor";
 sergey.s = 55000;
 int a_2=2022-sergey.b;
+sums += sergey.s;
+k += 1;
 
 cout << "Lastname: " << sergey.l << endl;
 cout << "Name: " << sergey.n << endl;
@@ -49,6 +55,8 @@ alexander.b = 1984;
 alexander.a = "director";
 alexander.s = 80000;
 int a_3=2022-alexander.b;
+sums += alexander.s;
+k += 1;
 
 cout << "Lastname: " << alexander.l << endl;
 cout << "Name: " << alexander.n << endl;
@@ -64,6 +72,8 @@ dmitriy.b = 1985;
 dmitriy.a = "manager";
 dmitriy.s = 45000;
 int a_4=2022-dmitriy.b;
+sums += dmitriy.s;
+k += 1;
 
 cout << "Lastname: " << dmitriy.l << endl;
 cout << "Name: " << dmitriy.n << endl;
@@ -79,6 +89,8 @@ mikhail.b = 1994;
 mikhail.a = "fashion model";
 mikhail.s = 70000;
 int a_5=2022-mikhail.b;
+sums += mikhail.s;
+k += 1;
 
 cout << "Lastname: " << mikhail.l << endl;
 cout << "Name: " << mikhail.n << endl;
@@ -94,6 +106,8 @@ andrey.b = 1992;
 andrey.a = "assistant";
 andrey.s = 55000;
 int a_6=2022-andrey.b;
+sums += andrey.s;
+k += 1;
 
 cout << "Lastname: " << andrey.l << endl;
 cout << "Name: " << andrey.n << endl;
@@ -109,6 +123,8 @@ kirill.b = 1980;
 kirill.a = "assistant";
 kirill.s = 43000;
 int a_7=2022-kirill.b;
+sums += kirill.s;
+k += 1;
 
 cout << "Lastname: " << kirill.l << endl;
 cout << "Name: " << kirill.n << endl;
@@ -124,6 +140,8 @@ ivan.b = 1993;
 ivan.a = "assistant";
 ivan.s = 35000;
 int a_8=2022-ivan.b;
+sums += ivan.s;
+k += 1;
 
 cout << "Lastname: " << ivan.l << endl;
 cout << "Name: " << ivan.n << endl;
@@ -132,7 +150,7 @@ cout << "Appointment: " << ivan.a << endl;
 cout << "Salary: " << ivan.s << endl;
 cout << "\t" << endl;
 
-cout << "Srednyaya zarplata = " << (konstantin.s+sergey.s+alexander.s+dmitriy.s+mikhail.s+andrey.s+kirill.s+ivan.s)/8 << endl;
+cout << "Srednyaya zarplata = " << sums/k << endl;
 cout << "\t" << endl;
 
 if (a_1>30){
